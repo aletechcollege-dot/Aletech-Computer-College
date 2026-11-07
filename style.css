@@ -1,0 +1,697 @@
+body {
+    background-color:yellow;
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+}
+h1 {
+    color:navy;
+    text-align:center;
+    font-size:40px;
+    text-transform:uppercase;
+    text-shadow:2px 2px 3px 4px gray;
+    font-weight:bold;
+    letter-spacing:2px;
+    text-decoration:underline;
+    background-color:white;
+    padding:20px;
+    border-radias:10px;
+}
+p {
+    color:black;
+    font-size:20px;
+    border:2px solid blue;
+    padding:15px;
+    margin:20px;
+}
+
+nav{
+    background-color:black;
+    padding:15px;
+    text-align:center;
+    transition:0.3s;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:25px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+    background-color:blue
+    padding:8px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+header{
+    background-color:navy;
+    background-image:linear-gradient(to right,navy,blue);
+    colour:white;
+    text-align:center;
+    padding:35px;
+}header h2{
+    font-size:30px;
+    inter-spacing:3px;
+}
+header p{
+    color:white;
+    font-size:16px;
+    inter-spacing:2px;
+    border:none;
+    margin:5px;
+}
+
+.courses{
+    text-align:center;
+    padding:40px;
+    background-color:#f2f2f2;
+}
+.course{
+    background-color:white;
+    border: 2px solid lightgray;
+    padding: 15px;
+    margin: 25px auto;
+    border-radius: 10px;
+    width:70%;
+    box-shadow: 2px 2px 5px gray;
+    transition:0.3s;
+}
+        .course h3{
+            color:navy;
+            font-size:22px;
+        }
+        .course p{
+            color:black;
+            border: none;
+            margin: 5px;
+        }
+
+        .courses h2{
+            color:navy;
+            font-size:30px;
+            text-transform:uppercase;
+            text-decoration:underline;
+            background-color:lightblue;
+            padding:10px;
+            border:2px solid navy;
+            border-radius:10px;
+        }
+        
+        .course:hover{
+            background-color:lightblue;
+            cursor:pointer;
+            border-color:red;
+            transform:translateY(-5px);
+        }
+
+        body> p{
+            text-align:center;
+            font-weight:bold;
+            font-size:22px;
+            color:navy;
+            letter-spacing:1px;
+            background-color:lightblue;
+            border-radius:10px;
+            padding:15px;
+            width:70%;
+            margin:20px auto;
+            border:2px solid navy;
+        }
+        
+        body> p:hover{
+            background-color:navy;
+            color:white;
+        }
+
+        h1:hover{
+            background-color:navy;
+            color:white;
+            transform:translateY(-5px);
+        }
+
+        .about {
+            background-color:light gray;
+            padding:30px;
+            margin-top:30px;
+            min-height:150px;
+            text-align:center;
+            border:2px solid navy;
+            border-radius:12px;
+            box-shadow:2px 3px 6px gray;
+            transition:0.5s;
+        }
+        
+        .about h2 {
+            color:navy;
+            background-color:lightblue;
+            font-size:30px;
+            text-transform:uppercase;
+            transition:0.5s;
+            padding:12px;
+            border-radius:8px;
+            border:2px solid navy;
+            margin-bottom:25px;
+            inter-spacing:2px;
+        }
+
+        .about p {
+            font-size:18px;
+            line-height:1-6;
+            color:black;
+            max-width:700px;
+            margin:20px auto;
+            background-color:white;
+            padding:15px;
+            border:1px solid lightgray;
+        }
+
+        .about:hover{
+            background-color:lightblue;
+            transform:translateY(-5px);
+        }
+
+        .about h2:hover{
+            color:red;
+            background-color:navy;
+            transform:translateY(-3px);
+        }
+        .about p:hover{
+            color:navy;
+            background-color:lightblue;
+            transform:translateY(-3px);
+        }
+
+        @media screen and (max-width:600px) {
+            nav {
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                gap:10px;
+            }
+            nav a {
+                display:block;
+                margin:5px;
+            }
+            }
+            .course{
+                width:90%;
+                margin:15px auto;
+            }
+            .about{
+                padding:15px;
+            }
+            header {
+                padding:20px;
+            }
+            header h2 {
+                font-size:22px;
+                inter-spacing:1px
+            }
+            h1 {
+                font-size:28px;
+            }
+            .welcome h1 {
+                font-size:28px;
+            }
+            .welcome {
+                padding:60px 15px;
+            }
+                .reason {
+        width: 90%;
+        padding: 15px;
+    }
+    .student-form {
+    width: 95%;
+    padding: 15px;
+}
+        }
+
+        footer{
+            background-color:navy;
+            color:white;
+            text-align:center;
+            padding:20px;
+            border-top:4px solid blue;
+        }
+        footer p {
+            color:white;
+            font-size:14px;
+            border:none;
+            margin:10px 0;
+            text-align:center;
+        }
+
+        footer p:hover{
+            color:yellow;
+            transition:0.3s;
+        }
+
+        .contact {
+            background-color:lightgray;
+            margin-top:30px;
+            text-align:center;
+            padding:30px;
+            border:2px solid navy;
+            border-radius:12px;
+        }
+
+        .contact h2 {
+            color:navy;
+            font-size:30px;
+            text-transform:uppercase;
+            text-decoration:underline;
+        }
+
+        .contact p {
+            color:black;
+            font-size:18px;
+            border:none;
+            margin:10px;
+        }
+
+        .contact:hover{
+            background-color:lightblue;
+            transform:translateY(-5x);
+            transition:0.5s;
+        }
+
+        .contact a {
+            color:navy;
+            text-decoration:none;
+            font-weight:bold;
+        }
+        contact a : hover{
+            color:red;
+            text-decoration:underline;
+        }
+
+        html {
+            scroll-behavior:smooth;
+        }
+
+        .welcome{
+            text-align:center;
+            padding:100px 20px;
+            background-color:lightblue;
+            border-bottom:5px solid yellow;
+            border-radius:12px;
+            min-height:250px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+            font-weight:bold;
+            font-size:42px;
+            animation:fadein 2s ease-in;
+        }
+
+        .welcome h1 {
+            color:white;
+            font-size:35px;
+            text-transform:uppercase;
+            letter-spacing:2px;
+            text-shadow:2px 2px 4px black;
+        }
+
+        .welcome p {
+            color:white;
+            font-size:20px;
+            border:none;
+        }
+
+        .welcome-btn {
+            display:inline-block;
+            background-color:yellow;
+            color:navy;
+            padding:18px 35px;
+            text-decoration:none;
+            font-size:18px;
+            font-weight:bold;
+            border radius:8px;
+            margin-top:20px;
+            transition:0.3s;
+                }
+
+                .welcome-btn:hover{
+                    background-color:navy;
+                    color:white;
+                    transform:translateY(-5px);
+                }
+
+                @keyframes fadein{
+                    from{
+                        opacity:0;
+                    }
+                    to{
+                        opacity:1;
+                    }
+                }
+
+                .welcome h1:hover{
+                    color:yellow;
+                    transition:0.5s;
+                    transform:scale(1.05);
+                }
+
+                .why-us {
+    background-color: lightblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.why-us h2 {
+    color: navy;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.reason {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border: 2px solid navy;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px gray;
+    transition: 0.3s;
+}
+
+.reason h3 {
+    color: navy;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.reason p {
+    color: black;
+    font-size: 18px;
+    border: none;
+    margin: 10px;
+    line-height: 1.6;
+}
+
+.reason:hover {
+    background-color: lightblue;
+    transform: translateY(-5px);
+    border-color: red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reason h3:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.registration {
+    background-color: navy;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.registration h2 {
+    color: yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.registration p {
+    color: white;
+    font-size: 18px;
+    border: none;
+    line-height: 1.6;
+    margin: 15px;
+}
+
+.register-btn {
+    display: inline-block;
+    background-color: yellow;
+    color: navy;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background-color: white;
+    color: navy;
+    transform: translateY(-5px);
+    box-shadow: 2px 3px 6px black;
+}
+
+.registration:hover {
+    background-color: blue;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+footer:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.top-btn {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.top-btn:hover {
+    background-color: yellow;
+    color: navy;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.top-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact a[href*="wa.me"] {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact a[href*="wa.me"]:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.quick-contact {
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.quick-contact a {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.quick-contact a:hover {
+    background-color: darkgreen;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.student-form {
+    background-color: white;
+    padding: 25px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px gray;
+    text-align: left;
+}
+
+.student-form label {
+    display: block;
+    color: navy;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.student-form input,
+.student-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.student-form button {
+    background-color: navy;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.student-form button:hover {
+    background-color: blue;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+.registration h3 {
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+    outline: none;
+    border: 2px solid navy;
+    box-shadow: 0 0 5px lightblue;
+}
+
+.student-form button {
+    width: 100%;
+    display: block;
+}
+
+.student-form input,
+.student-form select {
+    margin-bottom: 20px;
+}
+
+.form-note {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    border: none;
+    margin: 15px;
+}
+
+.student-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.student-form textarea:focus {
+    outline: none;
+    border: 2px solid navy;
+    box-shadow: 0 0 5px lightblue;
+}
+
+.privacy-note {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+
+.student-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.course-btn {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.course-btn:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    nav a {
+        display: block !important;
+        margin: 5px !important;
+    }
+}
+        
+
+        
+
+
+
+        
+        
+        
+
+   
