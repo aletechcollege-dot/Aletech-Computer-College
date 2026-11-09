@@ -53,17 +53,17 @@ nav a:hover{
 header{
     background-color:navy;
     background-image:linear-gradient(to right,navy,blue);
-    colour:white;
+    color:white;
     text-align:center;
     padding:35px;
 }header h2{
     font-size:30px;
-    inter-spacing:3px;
+    letter-spacing:3px;
 }
 header p{
     color:white;
     font-size:16px;
-    inter-spacing:2px;
+   letter-spacing:2px;
     border:none;
     margin:5px;
 }
@@ -693,6 +693,15 @@ iframe {
     margin: 20px auto;
     border: none;
     box-sizing: border-box;
+}
+
+.welcome-image {
+    display: block;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 
