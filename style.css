@@ -728,6 +728,34 @@ iframe {
     color: #003366;
 }
 
+.faq {
+    background-color: #f2f6fc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    color: navy;
+    margin-bottom: 25px;
+}
+
+.faq-item {
+    background-color: white;
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.faq-item h3 {
+    color: #003366;
+}
+
+.faq-item p {
+    color: #333;
+}
+
 
 
         
