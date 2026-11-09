@@ -704,6 +704,30 @@ iframe {
     border-radius: 10px;
 }
 
+.mission-vision {
+    background-color: #f2f6fc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mission-vision h2 {
+    color: navy;
+    margin-bottom: 25px;
+}
+
+.mission, .vision {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mission h3, .vision h3 {
+    color: #003366;
+}
+
 
 
         
