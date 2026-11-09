@@ -684,6 +684,19 @@ footer a:hover {
         margin: 5px !important;
     }
 }
+
+/* Make the Google Form fit the website */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin: 20px auto;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
         
 
         
